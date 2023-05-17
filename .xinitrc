@@ -1,0 +1,2 @@
+exec ssh-agent awesome
+
