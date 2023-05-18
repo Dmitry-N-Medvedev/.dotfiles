@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: Thu May 18 02:31:46 CEST 2023
+#-- GENERATED: Thu May 18 03:23:21 CEST 2023
 #-- ANTIGEN v2.2.2
 _antigen () {
 	local -a _1st_arguments
@@ -36,7 +36,7 @@ antigen () {
   return 0;
 }
 typeset -gaU fpath path
-fpath+=(/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib /usr/home/dmitry/.antigen/bundles/zsh-users/zsh-syntax-highlighting /usr/home/dmitry/.antigen/bundles/zsh-users/zsh-autosuggestions /usr/home/dmitry/.antigen/bundles/zsh-users/zsh-completions /usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/genpass) path+=(/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib /usr/home/dmitry/.antigen/bundles/zsh-users/zsh-syntax-highlighting /usr/home/dmitry/.antigen/bundles/zsh-users/zsh-autosuggestions /usr/home/dmitry/.antigen/bundles/zsh-users/zsh-completions /usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/genpass)
+fpath+=(/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib /usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-syntax-highlighting /usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-autosuggestions /usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-completions /usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/genpass) path+=(/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib /usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-syntax-highlighting /usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-autosuggestions /usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-completions /usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/genpass)
 _antigen_compinit () {
   autoload -Uz compinit; compinit -d "/home/dmitry/.antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -48,31 +48,31 @@ if [[ -n "/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh" ]]; then
   ZSH="/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh"; ZSH_CACHE_DIR="/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/cache/"
 fi
 #--- BUNDLES BEGIN
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh';
-source '/usr/home/dmitry/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
-source '/usr/home/dmitry/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh';
-source '/usr/home/dmitry/.antigen/bundles/zsh-users/zsh-completions/zsh-completions.plugin.zsh';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/themes/gentoo.zsh-theme.antigen-compat';
-source '/usr/home/dmitry/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/genpass/genpass.plugin.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/zsh-users/zsh-completions/zsh-completions.plugin.zsh';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/themes/gentoo.zsh-theme.antigen-compat';
+source '/usr/home/dmitry/.dotfiles/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/genpass/genpass.plugin.zsh';
 
 #--- BUNDLES END
 typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/robbyrussell/oh-my-zsh.git lib plugin true' 'https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true' 'https://github.com/zsh-users/zsh-autosuggestions.git / plugin true' 'https://github.com/zsh-users/zsh-completions.git / plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git themes/gentoo.zsh-theme theme true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/genpass plugin true')
