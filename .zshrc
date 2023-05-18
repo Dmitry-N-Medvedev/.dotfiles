@@ -1,6 +1,4 @@
-export TERM=screen-256color
-
-source /usr/local/share/zsh/antigen.zsh
+. /usr/local/share/zsh/antigen.zsh
 
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -19,7 +17,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-source ~/.cargo/env
-source ~/.config/fzf/shell/completion.zsh
-source ~/.config/fzf/shell/key-bindings.zsh
+. ~/.config/fzf/shell/completion.zsh
+. ~/.config/fzf/shell/key-bindings.zsh
 
