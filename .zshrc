@@ -1,3 +1,5 @@
+export TERM=screen-256color
+
 source /usr/local/share/zsh/antigen.zsh
 
 antigen use oh-my-zsh
