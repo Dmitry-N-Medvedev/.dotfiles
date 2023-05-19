@@ -1,7 +1,7 @@
 setxkbmap -layout us,ru -option grp:alt_space_toggle
 set clipboard+=unnamedplus
 
-conky &
+# conky &
 
 exec awesome
 
