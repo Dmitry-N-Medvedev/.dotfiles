@@ -1,11 +1,11 @@
-session_name: dev 
+session_name: dev
 windows:
-  - window_name: dev 
+  - window_name: dev
     focus: true
     layout: main-horizontal
     options:
-      main-pane-height: 55%
+      main-pane-height: 70 
     panes:
-      - pane
-      - pane
+      - nvim .
+      - pane 
       - pane 

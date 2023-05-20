@@ -1,9 +1,0 @@
-set -g default-terminal screen-256color
-set -g status-bg red
-set -g status-fg green
-set -g status-right '#(sysctl vm.loadavg)'
-setw -g window-status-current-attr underscore
-bind r source-file ~/.tmux.conf
-setw -g utf8 on
-set -g status-utf8 on
-
