@@ -15,7 +15,7 @@
 # TERM=xterm; 	export TERM
 # TERM=alacritty; export TERM
 
-export TERM=screen-256color
+# export TERM=screen-256color
 
 EDITOR=vim;   	export EDITOR
 PAGER=less;  	export PAGER
