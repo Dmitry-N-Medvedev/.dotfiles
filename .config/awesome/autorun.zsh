@@ -8,5 +8,4 @@ function run {
 }
 
 run picom --config=$HOME/.config/picom/picom.conf
-# run conky --config=$HOME/.config/conky/conky.conf
 
