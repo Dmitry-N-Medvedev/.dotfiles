@@ -1,14 +1,16 @@
 [Default Applications]
-x-scheme-handler/http=userapp-Firefox-83WX41.desktop
-x-scheme-handler/https=userapp-Firefox-83WX41.desktop
+x-scheme-handler/http=chromium-browser.desktop
+x-scheme-handler/https=chromium-browser.desktop
 x-scheme-handler/chrome=userapp-Firefox-83WX41.desktop
-text/html=userapp-Firefox-83WX41.desktop
+text/html=chromium-browser.desktop
 application/x-extension-htm=userapp-Firefox-83WX41.desktop
 application/x-extension-html=userapp-Firefox-83WX41.desktop
 application/x-extension-shtml=userapp-Firefox-83WX41.desktop
 application/xhtml+xml=userapp-Firefox-83WX41.desktop
 application/x-extension-xhtml=userapp-Firefox-83WX41.desktop
 application/x-extension-xht=userapp-Firefox-83WX41.desktop
+x-scheme-handler/about=chromium-browser.desktop
+x-scheme-handler/unknown=chromium-browser.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Firefox-83WX41.desktop;

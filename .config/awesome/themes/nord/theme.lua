@@ -34,6 +34,7 @@ theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(2)
 theme.border_normal = "#3B4252"
 theme.border_focus  = "#4C566A"
+-- theme.border_focus  = "#D08770"
 theme.border_marked = "#D08770"
 -- }}}
 
