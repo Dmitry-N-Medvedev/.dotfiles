@@ -1,4 +1,5 @@
 *.log
 pulse
 ungoogled-chromium
-.config/chromium
+*/chromium/**
+
