@@ -20,3 +20,5 @@ esac
 . ~/.config/fzf/shell/completion.zsh
 . ~/.config/fzf/shell/key-bindings.zsh
 
+export PATH=~/bin/goroot/bin:~/bin/stage3/bin:$PATH
+
