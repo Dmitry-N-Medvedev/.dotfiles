@@ -2,3 +2,5 @@
 [user]
 	name = Dmitry Medvedev 
 	email = dmitry.medvedev@gmail.com 
+[safe]
+	directory = /usr/doc
