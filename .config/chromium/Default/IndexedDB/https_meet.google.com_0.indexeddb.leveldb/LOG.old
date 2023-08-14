@@ -1,7 +1,0 @@
-2023/06/17-16:07:19.050 ffffffffbb858c00 Reusing MANIFEST /home/dmitry/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/06/17-16:07:19.051 ffffffffbb858c00 Recovering log #3
-2023/06/17-16:07:19.051 ffffffffbb858c00 Reusing old log /home/dmitry/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000003.log 
-2023/06/17-16:08:21.638 ffffffffbb858c00 Level-0 table #5: started
-2023/06/17-16:08:21.639 ffffffffbb858c00 Level-0 table #5: 7413 bytes OK
-2023/06/17-16:08:21.639 ffffffffbb858c00 Delete type=0 #3
-2023/06/17-16:08:21.639 ffffffffbb858c00 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
