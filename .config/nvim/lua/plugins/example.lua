@@ -1,6 +1,18 @@
 -- since this is just an example spec, don't actually load anything here and return an empty spec
 -- stylua: ignore
-if true then return {} end
+
+-- lspconfig.rust_analyzer.setup({
+--   cmd = {
+--     rustup = "/home/dmitry/.cargo/bin/rustup",
+--     "run",
+--     "stable",
+--     "rust-analyzer",
+--   },
+-- })
+
+if true then
+  return {}
+end
 
 -- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
 --
@@ -10,13 +22,13 @@ if true then return {} end
 -- * override the configuration of LazyVim plugins
 return {
   -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+  -- { "ellisonleao/gruvbox.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      -- colorscheme = "gruvbox",
     },
   },
 
@@ -134,7 +146,7 @@ return {
 
   -- for typescript, LazyVim also includes extra specs to properly setup lspconfig,
   -- treesitter, mason and typescript.nvim. So instead of the above, you can use:
-  { import = "lazyvim.plugins.extras.lang.typescript" },
+  -- { import = "lazyvim.plugins.extras.lang.typescript" },
 
   -- add more treesitter parsers
   {
