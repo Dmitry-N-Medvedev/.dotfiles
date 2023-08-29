@@ -1,0 +1,15 @@
+include	GENERIC
+ident	GENERIC-NETGRAPH
+
+#	options	NETGRAPH
+#	options	NETGRAPH_SOCKET
+#	options	NETGRAPH_BLUETOOTH
+#	options	NETGRAPH_BLUETOOTH_SOCKET
+#	options	NETGRAPH_BLUETOOTH_HCI
+#	options	NETGRAPH_BLUETOOTH_L2CAP
+#	options	NETGRAPH_BLUETOOTH_UBT
+#	options	NETGRAPH_DEBUG
+
+#	device	sound
+#	device	snd_hda
+
